@@ -1,0 +1,52 @@
+// Body Styles.
+body {
+  font-family: $latoregular;
+//  background-image: image-url('bg.png');
+  margin:0px;
+  #page {
+    max-width: 100%;
+//    margin:0 auto;
+  }
+}
+
+// Header Styles.
+.header {
+  @include outer-container;
+  padding:0px !important;
+  background-color:red;
+  height: 148px;
+  max-width: 100%;
+
+
+  #site-name {
+    position: absolute;
+    text-indent: -9999px;
+  }
+
+  #logo {
+    @include span-columns(2);
+  }
+
+  .header-msg {
+    @include span-columns(8);
+    border:solid 1px #000;
+  }
+
+  .header-phone {
+    @include span-columns(2);
+  }
+
+}
+
+#hero-banner {
+  max-height: 430px;
+  background-color: blue;
+}
+
+// Hero Banner Styles.
+#hero-banner-carousel .slide img{
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  border:solid 1px #000;
+}

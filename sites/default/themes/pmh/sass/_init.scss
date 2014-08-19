@@ -56,6 +56,21 @@ $font-body:        $verdana;
 $font-monospace:   $courier;
 
 
+// Device Resoulutions.
+$tiny-mobile-width:     220px;
+$small-mobile-width:    320px;
+$medium-mobile-width:   480px;
+$large-mobile-width:    595px;
+$tablet-width:          768px;
+$main-menu-break:       980px;
+$desktop-width:         1024px;
+$monitor-width:         1920px;
+
+// Custom Fonts.
+$latobold:    latobold;
+$latoregular: latoregular;
+$latolight:   latolight;
+
 //
 // Colors, etc.
 //

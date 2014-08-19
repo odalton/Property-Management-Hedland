@@ -1,0 +1,88 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function pmh_hero_block_info() {
+  // Hero banner carousel block.
+  $blocks['pmh_hero'] = array(
+    'info' => t('HBC Hero Banner'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+  return $blocks;
+}
+/**
+ * Implements hook_block_view().
+ */
+function pmh_hero_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'pmh_hero':
+      // Path the module.
+      $base_path = drupal_get_path('module', 'pmh_hero');
+      // Add Owl Carousel plugin js and css.
+      drupal_add_js('sites/all/libraries/owl-carousel/owl.carousel.min.js');
+      drupal_add_css('sites/all/libraries/owl-carousel/owl.carousel.css');
+      // Add custom js.
+      drupal_add_js($base_path . '/js/pmh_hero.js');
+
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_hero',
+        '#slides' => pmh_hero_nodes(),
+      );
+      break;
+
+  }
+  return $block;
+}
+
+
+/**
+ * Implements hook_custom_theme().
+ */
+function pmh_hero_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'pmh_hero' => array(
+      'template' => 'templates/pmh_hero',
+      'variables' => array(
+        'slides' => null,
+      ),
+    ),
+
+  );
+}
+
+
+// Custom function to return all the hero banner nodes.
+function pmh_hero_nodes(){
+
+  // Empty array to return later.
+  $out = array();
+  $items = array();
+
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node') // Query nodes.
+    ->entityCondition('bundle', 'hero_banner') // Hero banner content type.
+    ->addMetaData('account', user_load(1)); // Run the query as user 1.
+  $result = $query->execute(); // Execute that funky function.
+
+  if (isset($result['node'])) {
+    // Returned node IDs.
+    $nids = array_keys($result['node']);
+    // Load the nodes with provided nids.
+    $items = entity_load('node', $nids);
+  }
+  // If there are nodes.
+  if (!empty($items)) {
+    foreach ($items as $k => $v) {
+      $out[$k]['image'] = $v->field_hero_image['und'][0]['uri'];
+    }
+  }
+  return $out;
+}

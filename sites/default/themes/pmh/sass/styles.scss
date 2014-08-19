@@ -18,5 +18,7 @@
 /* Component (SMACSS module) rules */
 @import "components/misc";
 
+@import "components/pmh_main.scss";
+
 // Optionally, add your own components here.
 @import "print";

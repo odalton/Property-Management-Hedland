@@ -673,14 +673,6 @@ input[type="submit"] {
  * Branding header.
  */
 /* Wrapping link for logo. */
-/* line 81, ../sass/components/_misc.scss */
-.header__logo {
-  float: left;
-  /* LTR */
-  margin: 0;
-  padding: 0;
-}
-
 /* Logo image. */
 /* line 88, ../sass/components/_misc.scss */
 .header__logo-image {
@@ -697,8 +689,6 @@ input[type="submit"] {
 /* line 98, ../sass/components/_misc.scss */
 .header__site-name {
   margin: 0;
-  font-size: 16px;
-  line-height: 1.125em;
 }
 
 /* The link around the name of the website. */
@@ -1447,6 +1437,82 @@ tr.selected td {
 .progress .filled {
   background-color: #0072b9;
   background-image: url('../images/progress.gif?1398863088');
+}
+
+/* line 2, ../sass/components/_pmh_main.scss */
+body {
+  font-family: latoregular;
+  margin: 0px;
+}
+/* line 6, ../sass/components/_pmh_main.scss */
+body #page {
+  max-width: 100%;
+}
+
+/* line 13, ../sass/components/_pmh_main.scss */
+.header {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px !important;
+  background-color: red;
+  height: 148px;
+  max-width: 100%;
+}
+/* line 21, ../sass/components/_pmh_main.scss */
+.header #site-name {
+  position: absolute;
+  text-indent: -9999px;
+}
+/* line 26, ../sass/components/_pmh_main.scss */
+.header #logo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+.header #logo:last-child {
+  margin-right: 0;
+}
+/* line 30, ../sass/components/_pmh_main.scss */
+.header .header-msg {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  border: solid 1px #000;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+.header .header-msg:last-child {
+  margin-right: 0;
+}
+/* line 35, ../sass/components/_pmh_main.scss */
+.header .header-phone {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+.header .header-phone:last-child {
+  margin-right: 0;
+}
+
+/* line 41, ../sass/components/_pmh_main.scss */
+#hero-banner {
+  max-height: 430px;
+  background-color: blue;
+}
+
+/* line 47, ../sass/components/_pmh_main.scss */
+#hero-banner-carousel .slide img {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  border: solid 1px #000;
 }
 
 /**
