@@ -1,0 +1,160 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function pmh_header_menu() {
+  $items['admin/config/pmh-settings'] = array(
+    'title' => 'PMH Settings',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pmh_header_form'),
+    'access arguments' => array('access administration pages'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+
+
+function pmh_header_form($form, &$form_state) {
+
+  $form['pmh_header_one'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Header Message One'),
+    '#default_value' => variable_get('pmh_header_one', 'Are You Looking for a Pilbara Property Management Specialist?'),
+    '#description' => t('The message to display.'),
+    '#required' => FALSE,
+  );
+
+  $form['pmh_header_two'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Header Message Two'),
+    '#default_value' => variable_get('pmh_header_two', 'Then you are looking for MACRO Realty.'),
+    '#description' => t('The message to display.'),
+    '#required' => FALSE,
+  );
+
+  $form['pmh_phone_number_plus'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Header +61 Number'),
+    '#default_value' => variable_get('pmh_phone_number_plus', '+61812345678'),
+    '#description' => t('The +61 number without spaces.'),
+    '#required' => TRUE,
+  );
+
+  $form['pmh_phone_number'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Header Phone Number'),
+    '#default_value' => variable_get('pmh_phone_number', '08 1234 5678'),
+    '#description' => t('The number to display.'),
+    '#required' => TRUE,
+  );
+
+  $map1 = variable_get('pmh_gmap_one');
+
+  $form['pmh_gmap_one'] = array(
+    '#type' => 'text_format',
+    '#format' => 'full_html',
+    '#title' => t('Gmap One'),
+    '#default_value' => $map1['value'],
+    '#description' => t('The Gmap Address to display.'),
+    '#required' => TRUE,
+  );
+
+  $map2 = variable_get('pmh_gmap_two');
+
+
+  $form['pmh_gmap_two'] = array(
+    '#type' => 'text_format',
+    '#format' => 'full_html',
+
+
+    '#title' => t('Gmap Two'),
+    '#default_value' => $map2['value'],
+    '#description' => t('The Gmap Address to display.'),
+    '#required' => TRUE,
+
+  );
+
+
+
+  return system_settings_form($form);
+}
+
+
+/**
+ * Implements hook_block_info().
+ */
+function pmh_header_block_info() {
+  // Hero banner carousel block.
+  $blocks['pmh_header'] = array(
+    'info' => t('HBC Header Message Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  $blocks['pmh_phone'] = array(
+    'info' => t('HBC Header Phone Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pmh_header_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'pmh_header':
+      // Path the module.
+      $base_path = drupal_get_path('module', 'pmh_header');
+
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_header',
+        '#header1' => 'header one',
+        '#header2' => 'header two',
+      );
+      break;
+
+
+    case 'pmh_phone':
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_phone',
+        '#number' => 'number',
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function pmh_header_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'pmh_header' => array(
+      'template' => 'templates/pmh_header',
+      'variables' => array(
+        'header1' => null,
+        'header2' => null,
+      ),
+    ),
+
+    'pmh_phone' => array(
+      'template' => 'templates/pmh_phone',
+      'variables' => array(
+        'number' => null,
+      ),
+    ),
+
+  );
+}

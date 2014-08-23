@@ -1,0 +1,70 @@
+<?php
+
+
+/**
+ * Implements hook_block_info().
+ */
+function pmh_gmap_block_info() {
+  // Hero banner carousel block.
+  $blocks['pmh_gmap'] = array(
+    'info' => t('HBC GMap Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ */
+function pmh_gmap_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'pmh_gmap':
+      // Path the module.
+
+
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_gmap',
+        '#map1' => 'header one',
+        '#map2' => 'header two',
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function pmh_gmap_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'pmh_gmap' => array(
+      'template' => 'templates/pmh_gmap',
+      'variables' => array(
+        'map1' => null,
+        'map2' => null,
+      ),
+    ),
+  );
+}
+
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pmh_gmap_preprocess_page(&$variables) {
+  drupal_add_js('https://maps.googleapis.com/maps/api/js?key=AIzaSyCxPMFKItqPYezCGKYcvFl3reOl70tO1jM', 'external');
+  drupal_add_js(drupal_get_path('module', 'pmh_gmap') . '/js/pmh_gmap.js', 'file');
+  $base_path = drupal_get_path('module', 'pmh_gmap');
+  drupal_add_js(array('pmh_gmaps' => array('pathx' => $base_path)), array('type' => 'setting'));
+
+}

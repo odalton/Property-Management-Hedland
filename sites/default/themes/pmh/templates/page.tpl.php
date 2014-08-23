@@ -11,6 +11,7 @@
 <div id="page">
 
   <header class="header" id="header" role="banner">
+    <div class="header-inner">
 
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
@@ -30,33 +31,17 @@
       </div>
     <?php endif; ?>
 
-    <?php if ($secondary_menu): ?>
-      <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
-        <?php print theme('links__system_secondary_menu', array(
-          'links' => $secondary_menu,
-          'attributes' => array(
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => $secondary_menu_heading,
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        )); ?>
-      </nav>
-    <?php endif; ?>
-
     <?php print render($page['header']); ?>
 
     <div class="header-msg">
-
+      <?php print render($page['header_msg']); ?>
     </div>
-
 
     <div class="header-phone">
-      (08) 9366 0303
+      <?php print render($page['header_phone']); ?>
     </div>
 
+    </div>
   </header>
 
   <div id="hero-banner">
@@ -82,34 +67,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?>
-    </div>
-
-    <div id="navigation">
-
-      <?php if ($main_menu): ?>
-        <nav id="main-menu" role="navigation" tabindex="-1">
-          <?php
-          // This code snippet is hard to modify. We recommend turning off the
-          // "Main menu" on your sub-theme's settings form, deleting this PHP
-          // code block, and, instead, using the "Menu block" module.
-          // @see https://drupal.org/project/menu_block
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
-            'heading' => array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => array('element-invisible'),
-            ),
-          )); ?>
-        </nav>
-      <?php endif; ?>
-
-      <?php print render($page['navigation']); ?>
-
+      <?php //print $feed_icons; ?>
     </div>
 
     <?php
@@ -130,5 +88,7 @@
   <?php print render($page['footer']); ?>
 
 </div>
+
+<div class="responsive-bar"></div>
 
 <?php print render($page['bottom']); ?>

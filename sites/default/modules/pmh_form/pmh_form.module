@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ *
+ */
+function pmh_form_form_webform_client_form_3_alter(&$form, &$form_state, $form_id) {
+
+  if(isset($form_id) && $form_id == "webform_client_form_3") {
+    // Update form action of submit.
+    $form['#action'] = "/pmh/";
+
+    // Add for placeholders to the form inputs.
+    $form['submitted']['name']['#attributes']['placeholder']            = "Name.";
+    $form['submitted']['email']['#attributes']['placeholder']           = "Email.";
+    $form['submitted']['phone']['#attributes']['placeholder']           = "Phone.";
+    $form['#prefix'] = '<h3>Let us help you manage your investment.</h3>';
+  }
+}

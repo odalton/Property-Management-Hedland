@@ -130,3 +130,14 @@ function pmh_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ *
+ */
+function pmh_preprocess_node(&$variables) {
+  $variables['view_mode'] = 'full';
+  $variables['page'] = TRUE;
+  $variables['content']['links'] = FALSE; // This is to remove the 'Read more' link
+}

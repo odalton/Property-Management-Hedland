@@ -81,7 +81,9 @@ stylesheets[all][] = css/styles.css
 ;   <?php print $header_top; ?>
 
 regions[header]         = Header
-regions[hero_banner]         = Hero Banner
+regions[header_msg]     = Header Message
+regions[header_phone]   = Header Phone
+regions[hero_banner]    = Hero Banner
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help

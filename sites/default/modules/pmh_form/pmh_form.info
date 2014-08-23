@@ -1,0 +1,4 @@
+name = PMH Form.
+description = PMH form module.
+core = 7.x
+package = "PMH Custom Modules."

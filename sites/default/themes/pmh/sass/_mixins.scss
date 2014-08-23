@@ -35,3 +35,19 @@
     @include element-invisible-off;
   }
 }
+
+// Displays a Coloured bar to help with responsive design layout.
+@mixin responsive-bar($bg, $content) {
+  .responsive-bar {
+    opacity: 1;
+    z-index: 1;
+    width:100%;
+    left:0px;
+    height: 10px;
+    position: fixed;
+    bottom: 0px;
+    background-color: $bg;
+    content: $content;
+    color:#000;
+  }
+}

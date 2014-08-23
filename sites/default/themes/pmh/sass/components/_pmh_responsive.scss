@@ -1,0 +1,198 @@
+@include media($tiny-mobile-width) {
+  @include responsive-bar(red, 'hello');
+  // Header content.
+  .header {
+    .header-inner {
+      height: 300px;
+      text-align: center;
+
+      #logo {
+        @include span-columns(12);
+        top:10px;
+        margin: 0px;
+      }
+
+      .header-msg {
+        @include span-columns(12);
+        .header-msg-one {
+          top: 10px;
+          padding-top: 10px;
+          font-size: 18px;
+        }
+      }
+
+      .header-phone {
+        @include span-columns(12);
+        top:15px;
+        #block-pmh-header-pmh-phone {
+          font-size: 25px;
+          margin:0px;
+          &:before {
+            left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  // Body content.
+  .node {
+    @include span-columns(12);
+    margin-bottom:110px;
+  }
+  // Webform.
+  #block-webform-client-block-3 {
+    @include span-columns(12);
+  }
+
+  // Map Block
+  #block-pmh-gmap-pmh-gmap {
+    .map-content {
+      @include span-columns(12);
+      margin-right:0px;
+      margin-bottom:10px;
+      .map-address {
+        padding:0px 10px;
+      }
+    }
+  }
+}
+
+@include media($small-mobile-width) {
+  @include responsive-bar(orange, 'hello');
+  .header {
+    .header-inner {
+      .header-msg {
+        .header-msg-one {
+          font-size: 22px;
+        }
+      }
+      .header-phone {
+        #block-pmh-header-pmh-phone {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
+
+@include media($medium-mobile-width) {
+  @include responsive-bar(green, 'hello');
+  .header {
+    .header-inner {
+      .header-msg {
+        #block-pmh-header-pmh-header {
+          margin:0px;
+          .header-msg-one {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media($large-mobile-width) {
+  @include responsive-bar(purple, 'hello');
+  .header {
+    .header-inner {
+      .header-phone {
+        #block-pmh-header-pmh-phone {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+
+@include media($tablet-width) {
+  @include responsive-bar(yellow, 'hello');
+  // Header content.
+  .header {
+    .header-inner {
+      height: 148px;
+      #logo {
+        @include span-columns(3);
+        top:25px;
+        margin: 0px;
+      }
+
+      .header-msg {
+        @include span-columns(6);
+        #block-pmh-header-pmh-header {
+          .header-msg-one {
+            top: 10px;
+            padding-top: 10px;
+            font-size: 23px;
+          }
+        }
+      }
+
+      .header-phone {
+        @include span-columns(3);
+        top:15px;
+        #block-pmh-header-pmh-phone {
+          position: relative;
+          top:40px;
+          font-size: 22px;
+          margin:0px;
+          &:before {
+            left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  #main {
+    .node {
+      @include span-columns(7);
+    }
+
+    #block-webform-client-block-3 {
+      @include span-columns(5);
+      h2 {
+//        font-size: 24px;
+      }
+    }
+  }
+
+  #block-pmh-gmap-pmh-gmap {
+    .map-content {
+      @include span-columns(6);
+    }
+  }
+}
+
+@include media($main-menu-break) {
+  @include responsive-bar(blue, 'hello');
+  .header {
+    .header-inner {
+
+      .header-msg {
+
+        #block-pmh-header-pmh-header {
+          .header-msg-one {
+            font-size: 27px;
+          }
+        }
+      }
+
+      .header-phone {
+        #block-pmh-header-pmh-phone {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+
+@include media($desktop-width) {
+  @include responsive-bar(grey, 'hello');
+  .header .header-inner .header-msg #block-pmh-header-pmh-header .header-msg-one {
+    top:25px;
+    font-size: 26px;
+  }
+}
