@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/favicon.ico" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_gmap/pmh_gmap.module" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_gmap/pmh_gmap.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pmh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +28,7 @@
       <file leaf-file-name="_pmh_main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="21" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.9321267" vertical-offset="2727" max-vertical-offset="3570">
+            <state line="163" column="24" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.5022625" vertical-offset="2112" max-vertical-offset="3615">
               <folding />
             </state>
           </provider>
@@ -708,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="21" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.9321267" vertical-offset="2727" max-vertical-offset="3570">
+        <state line="163" column="24" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.5022625" vertical-offset="2112" max-vertical-offset="3615">
           <folding />
         </state>
       </provider>
