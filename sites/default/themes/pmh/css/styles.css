@@ -1610,7 +1610,7 @@ body #page {
 }
 /* line 158, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-actions input[type="submit"] {
-  background-color: #EA1B89 !important;
+  background-color: #fcaf17 !important;
   width: 100%;
   height: 70px;
 }
@@ -1660,6 +1660,21 @@ body #page {
 body.not-front #main {
   background-color: #fff;
   border-radius: 8px;
+}
+
+/* line 215, ../sass/components/_pmh_main.scss */
+body.section-thank-you #page-title {
+  position: absolute;
+  left: -9999px;
+}
+/* line 223, ../sass/components/_pmh_main.scss */
+body.section-thank-you #main #content .messages, body.section-thank-you #main #content .messages--status, body.section-thank-you #main #content .messages--warning, body.section-thank-you #main #content .messages--error {
+  display: none;
+}
+/* line 228, ../sass/components/_pmh_main.scss */
+body.section-thank-you #main .node {
+  top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 220px) {
