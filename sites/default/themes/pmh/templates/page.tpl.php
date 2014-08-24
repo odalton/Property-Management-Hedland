@@ -89,6 +89,15 @@
 
 </div>
 
+
+
 <div class="responsive-bar"></div>
 
 <?php print render($page['bottom']); ?>
+
+
+<div class="macro-footer">
+  <div class="macro-copyright">
+    Copyright &copy; <?php print date('Y'); ?> MACRO Realty Pty Ltd.
+  </div>
+</div>

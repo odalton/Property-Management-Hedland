@@ -1,0 +1,52 @@
+<?php
+
+
+/**
+ * Implements hook_block_info().
+ */
+function pmh_footer_block_info() {
+
+  $blocks['pmh_footer'] = array(
+    'info' => t('HBC Footer Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ */
+function pmh_footer_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+
+    case 'pmh_footer':
+      // Path the module.
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_footer',
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function pmh_footer_theme() {
+
+  return array(
+
+    'pmh_footer' => array(
+      'template' => 'templates/pmh_footer',
+      'variables' => array(
+      ),
+    ),
+  );
+}

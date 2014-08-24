@@ -207,6 +207,19 @@ body {
   }
 }
 
+
+.macro-footer {
+  width:100%;
+  height: 91px;
+  background-color: #8D0069;
+  color:#ffffff;
+  .macro-copyright {
+    @include outer-container;
+    padding-top:30px;
+  }
+}
+
+
 body.not-front {
   #main {
     background-color: #fff;

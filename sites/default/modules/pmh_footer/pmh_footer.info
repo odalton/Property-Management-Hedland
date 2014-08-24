@@ -1,0 +1,4 @@
+name = PMH Footer.
+description = PMH footer module.
+core = 7.x
+package = "PMH Custom Modules."
