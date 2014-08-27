@@ -19,6 +19,13 @@ Drupal.behaviors.my_custom_behavior = {
 
     // Place your code here.
 
+//    console.log($('#edit-submitted-i-am-a'));
+//    var test = $("#edit-submitted-i-am-a option:selected");
+//    test[0].innerHTML('hjkhhkjhjk');
+//
+//    console.log(test);
+//    console.log($("#edit-submitted-i-am-a option:selected"));
+//    $( "select.foo option:selected").val();
   }
 };
 

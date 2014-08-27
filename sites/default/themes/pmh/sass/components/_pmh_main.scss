@@ -31,6 +31,7 @@ body {
   }
 
   .header-msg {
+    font-family: $bebasneueregular;
     .header-msg-one {
       position: relative;
       top: 25px;
@@ -53,7 +54,7 @@ body {
     #block-pmh-header-pmh-phone {
       display: inline-block;
       color:#ffffff;
-      font-size: 20px;
+      font-size: 33px;
       font-weight: bold;
       &:before {
         display: inline-block;
@@ -95,8 +96,9 @@ body {
     background-color: rgba(141,24,112, 0.9);
     border-radius: 8px;
     h2 {
+      font-family: BebasNeue;
       text-align: center;
-      font-size: 34px;
+      font-size: 66px;
       color: #fcaf17;
       text-transform: uppercase;
       text-align: center;
@@ -107,7 +109,7 @@ body {
     h3 {
       text-align: center;
       padding:5px 35px;
-      font-size: 16px;
+      font-size: 23px;
       color: #fff;
     }
 
@@ -136,6 +138,11 @@ body {
         }
       }
 
+
+    }
+
+    .webform-component-textarea {
+      margin-bottom: 10px;
     }
 
     .webform-component-textfield,
@@ -145,7 +152,8 @@ body {
       }
     }
 
-    .webform-component-select {
+    .webform-component-select,
+    .webform-component-textarea {
       label {
         color: #fff;
         display: block;
@@ -162,6 +170,7 @@ body {
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 40px;
+        text-transform: uppercase;
       }
     }
   }
@@ -174,7 +183,13 @@ body {
       display: block;
       color: #8d1870;
       font-size: 30px;
+      margin-bottom:15px;
     }
+
+    .field-name-body {
+      font-size: 20px;
+    }
+
   }
 }
 
@@ -202,7 +217,7 @@ body {
     }
 
     #map-canvas-2 {
-      border-bottom:15px solid #03B5CF;
+      border-bottom:15px solid #8d1870;
     }
   }
 }

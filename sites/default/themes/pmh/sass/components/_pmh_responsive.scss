@@ -187,14 +187,14 @@
 
         #block-pmh-header-pmh-header {
           .header-msg-one {
-            font-size: 27px;
+            font-size: 33px;
           }
         }
       }
 
       .header-phone {
         #block-pmh-header-pmh-phone {
-          font-size: 28px;
+          font-size: 33px;
         }
       }
     }
@@ -205,7 +205,7 @@
 @include media($desktop-width) {
   @include responsive-bar(grey, 'hello');
   .header .header-inner .header-msg #block-pmh-header-pmh-header .header-msg-one {
-    top:25px;
-    font-size: 26px;
+    top:0px;
+    font-size: 44px;
   }
 }

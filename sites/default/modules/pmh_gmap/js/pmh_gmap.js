@@ -31,7 +31,7 @@
 
     var contentString2 = '<div id="content">'+
       '<div id="siteNotice">'+
-      '<b>Office Hours: (TBC) </b>'+
+      '<b>Office Hours: 8:30am - 5:00pm Monday to Friday </b>'+
       '<p>2 McKay St Port Hedland WA 6721</p>' +
       '</div>'+
       '</div>';
@@ -213,7 +213,7 @@
         map: map1,
         icon: new google.maps.MarkerImage(module_path + '/macro-map-icon.svg',
           null, null, null, new google.maps.Size(48,48)),
-        title: 'Hello did you know we are based in Ozzy Park!!'
+        title: ''
       });
 
       // Define marker
@@ -222,7 +222,7 @@
         map: map2,
         icon: new google.maps.MarkerImage(module_path + '/macro-map-icon.svg',
           null, null, null, new google.maps.Size(48,48)),
-        title: 'Hello did you know we are based in Ozzy Park!!'
+        title: ''
       });
 
       google.maps.event.addListener(marker1, 'click', function() {
