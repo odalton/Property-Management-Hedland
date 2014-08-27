@@ -8,7 +8,7 @@ function pmh_form_form_webform_client_form_3_alter(&$form, &$form_state, $form_i
 
   if(isset($form_id) && $form_id == "webform_client_form_3") {
     // Update form action of submit.
-    $form['#action'] = "/pmh/";
+    $form['#action'] = "/";
 
     // Add for placeholders to the form inputs.
     $form['submitted']['name']['#attributes']['placeholder']            = "Name.";
