@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_init.scssc" afterPath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_init.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_responsive.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_responsive.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/pmh.info" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/pmh.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_form/pmh_form.module" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_form/pmh_form.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_gmap/js/pmh_gmap.js" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_gmap/js/pmh_gmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/js/script.js" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles-rtl.css" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_mixins.scssc" afterPath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_mixins.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pmh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_pmh_main.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_pmh_main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="7" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.46341464" vertical-offset="2310" max-vertical-offset="4035">
+            <state line="173" column="7" selection-start="3031" selection-end="3031" vertical-scroll-proportion="-3.8513513" vertical-offset="2310" max-vertical-offset="4035">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="14" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.678125" vertical-offset="181" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -118,15 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pmh_footer.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="136" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -147,7 +137,6 @@
       <list>
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_header/templates/pmh_phone.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_header/pmh_header.module" />
-        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_gmap/templates/pmh_gmap.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_gmap/pmh_gmap.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php" />
@@ -161,6 +150,7 @@
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_form/pmh_form.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_gmap/js/pmh_gmap.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
+        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
       </list>
     </option>
   </component>
@@ -635,13 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="65" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.5701358" vertical-offset="192" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.49773756" vertical-offset="0" max-vertical-offset="663">
@@ -742,7 +725,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="7" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.46341464" vertical-offset="2310" max-vertical-offset="4035">
+        <state line="173" column="7" selection-start="3031" selection-end="3031" vertical-scroll-proportion="-3.8513513" vertical-offset="2310" max-vertical-offset="4035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.678125" vertical-offset="181" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
