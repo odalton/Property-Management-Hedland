@@ -85,7 +85,10 @@
 
   </div>
 
-  <?php print render($page['footer']); ?>
+  <div id="footer-memberships">
+    <?php print render($page['footer_memberships']); ?>
+  </div>
+
 
 </div>
 
@@ -97,7 +100,5 @@
 
 
 <div class="macro-footer">
-  <div class="macro-copyright">
-    Copyright &copy; <?php print date('Y'); ?> MACRO Realty Pty Ltd.
-  </div>
+  <?php print render($page['footer']); ?>
 </div>

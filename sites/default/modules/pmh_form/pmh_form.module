@@ -7,6 +7,9 @@
 function pmh_form_form_webform_client_form_3_alter(&$form, &$form_state, $form_id) {
 
   if(isset($form_id) && $form_id == "webform_client_form_3") {
+
+    $testimonialBlock = module_invoke('pmh_testimonials', 'block_view', 'pmh_testimonials');
+
     // Update form action of submit.
     $form['#action'] = "/";
 
@@ -14,6 +17,37 @@ function pmh_form_form_webform_client_form_3_alter(&$form, &$form_state, $form_i
     $form['submitted']['name']['#attributes']['placeholder']            = "Name.";
     $form['submitted']['email']['#attributes']['placeholder']           = "Email.";
     $form['submitted']['phone']['#attributes']['placeholder']           = "Phone.";
-    $form['#prefix'] = '<h3>Let us help you with all your property management needs.</h3>';
+    $form['#prefix'] = theme('html_tag', array(
+      'element' => array(
+        '#tag' => 'h3',
+        '#attributes' => array(
+          'class' => 'pmh-form-h3',
+        ),
+        '#value' => '
+        <span class="pmh-form-line1">To receive</span>
+        <span class="pmh-form-line2">free</span>
+        <span class="pmh-form-line3">property management</span>
+        <span class="pmh-form-line4">for 3 months!</span>'
+      ),
+    ));
+
+
+
+//    $form['#suffix'] = theme('pmh_testimonials', array('testimonials' => $testimonials));
+  }
+}
+
+
+/**
+ * Implements hook_page_alter().
+ *
+ *
+ */
+function pmh_form_page_alter(&$page) {
+  if($page['#theme'] == 'page') {
+    if (!path_is_admin(current_path())) {
+      $testimonials = pmh_testimonials_nodes();
+      $page['content']['webform_client-block-3']['#markup'] = $page['content']['webform_client-block-3']['#markup'] . theme('pmh_testimonials', array('testimonials' => $testimonials));
+    }
   }
 }

@@ -4,7 +4,7 @@ body {
   margin:0px;
   #page {
     max-width: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -150px;
   }
 }
 
@@ -13,6 +13,11 @@ body {
 .header {
   width: 100%;
   background-color: #8d1870;
+  &:after {
+    position: relative;
+    border-bottom: solid 20px #231f20;
+    width:100%;
+  }
 }
 
 .header-inner {
@@ -36,14 +41,14 @@ body {
       position: relative;
       top: 25px;
       font-size: 30px;
-      color: #fff;
+      color: transparent;
       text-transform: uppercase;
       text-align: center;
     }
 
     .header-msg-two {
       font-size: 30px;
-      color: #ea1b8a;
+      color: transparent;
       text-transform: uppercase;
       font-weight: bold;
     }
@@ -82,9 +87,9 @@ body {
 #main {
   @include outer-container;
   position: relative;
-  top:-120px;
+  top:-205px;
   border-bottom: solid 1px #cccccc;
-  padding-bottom: 30px;
+  padding-bottom: 115px;
   padding-top:0px;
 
   .messages--error {
@@ -93,24 +98,60 @@ body {
 
 
   #block-webform-client-block-3 {
-    background-color: rgba(141,24,112, 0.9);
-    border-radius: 8px;
+
     h2 {
       font-family: BebasNeue;
       text-align: center;
-      font-size: 66px;
-      color: #fcaf17;
+//      font-size: 66px;
+      color: #ffffff;
+      background-color: rgba(141,24,112, 0.9);
       text-transform: uppercase;
       text-align: center;
       padding:0px 35px;
       padding-top: 10px;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
     }
 
     h3 {
+      box-sizing: inherit;
       text-align: center;
-      padding:5px 35px;
-      font-size: 23px;
+      padding:10px 35px;
       color: #fff;
+      background-color: $contact-form-blue;
+
+      span {
+        text-transform: uppercase;
+        box-sizing: content-box;
+        &.pmh-form-line1 {
+          display: block;
+//          font-size: 55px;
+          line-height: 1em;
+        }
+        &.pmh-form-line2 {
+          display: block;
+//          font-size: 130px;
+          line-height: 1em;
+        }
+        &.pmh-form-line3 {
+          display: block;
+//          font-size: 27px;
+          line-height: 1em;
+        }
+        &.pmh-form-line4 {
+          display: block;
+//          font-size: 45px;
+          line-height: 1em;
+        }
+      }
+
+    }
+
+    form {
+      background-color: rgba(141,24,112, 0.9);
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      padding-top: 10px;
     }
 
     .form-item {
@@ -137,8 +178,6 @@ body {
           color: #fff;
         }
       }
-
-
     }
 
     .webform-component-textarea {
@@ -164,20 +203,36 @@ body {
     .form-actions {
       padding:0px 35px 20px 35px;
       input[type="submit"] {
-        background-color: #fcaf17 !important;
+        background-color: $contact-form-blue;
         width: 100%;
         height: 70px;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 40px;
-        text-transform: uppercase;
       }
     }
+
+    #testimonials-carousel {
+      background-color: #e9eaeb;
+      padding: 0px 25px;
+      margin-top: 40px;
+      border-radius: 8px;
+      padding:10px 30px;
+      .testimonial-body {
+        font-style: italic;
+        margin-bottom:14px;
+      }
+      .testimonial-title {
+        font-weight: bold;
+        color: rgba(141,24,112, 0.9);
+      }
+    }
+
   }
 
   .node {
     position: relative;
-    top:110px;
+    top:200px;
 
     h2 {
       display: block;
@@ -222,8 +277,16 @@ body {
   }
 }
 
+.memberships-wrapper {
+  @include outer-container;
+  span {
+    text-align: center;
+  }
+}
+
 
 .macro-footer {
+  //    @include outer-container;
   width:100%;
   height: 91px;
   background-color: #8D0069;
@@ -231,6 +294,20 @@ body {
   .macro-copyright {
     @include outer-container;
     padding-top:30px;
+    .icons {
+      float: left;
+      display: inline-block;
+      .icon {
+        font-size: 20px;
+        padding: 0px 10px;
+        display: inline-block;
+      }
+    }
+
+    .macro-copy {
+      display: inline-block;
+      float: right;
+    }
   }
 }
 

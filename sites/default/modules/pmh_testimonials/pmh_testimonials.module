@@ -1,58 +1,55 @@
 <?php
 
+
 /**
  * Implements hook_block_info().
  */
-function pmh_hero_block_info() {
-  // Hero banner carousel block.
-  $blocks['pmh_hero'] = array(
-    'info' => t('HBC Hero Banner'),
+function pmh_testimonials_block_info() {
+  $blocks['pmh_testimonials'] = array(
+    'info' => t('PMH Testimonials Block'),
     'cache' => DRUPAL_NO_CACHE
   );
+
   return $blocks;
 }
+
 
 /**
  * Implements hook_block_view().
  */
-function pmh_hero_block_view($delta = '') {
+function pmh_testimonials_block_view($delta = '') {
   // This example is adapted from node.module.
   $block = array();
 
   switch ($delta) {
-    // Hero banner carousel block.
-    case 'pmh_hero':
+    case 'pmh_testimonials':
+
       // Path the module.
-      $base_path = drupal_get_path('module', 'pmh_hero');
-      // Add Owl Carousel plugin js and css.
-      drupal_add_js('sites/all/libraries/owl-carousel/owl.carousel.min.js');
-      drupal_add_css('sites/all/libraries/owl-carousel/owl.carousel.css');
+      $base_path = drupal_get_path('module', 'pmh_testimonials');
+
       // Add custom js.
-      drupal_add_js($base_path . '/js/pmh_hero.js');
+      drupal_add_js($base_path . '/js/pmh_testimonials.js');
 
       $block['subject'] = '';
       $block['content'] = array(
-        '#theme' => 'pmh_hero',
-        '#slides' => pmh_hero_nodes(),
+        '#theme' => 'pmh_testimonials',
+        '#testimonials' => pmh_testimonials_nodes(),
       );
-      break;
 
+      break;
   }
   return $block;
 }
 
-
 /**
  * Implements hook_custom_theme().
  */
-function pmh_hero_theme() {
-
+function pmh_testimonials_theme() {
   return array(
-    // Hero banner block theme.
-    'pmh_hero' => array(
-      'template' => 'templates/pmh_hero',
+    'pmh_testimonials' => array(
+      'template' => 'templates/pmh_testimonials',
       'variables' => array(
-        'slides' => null,
+        'testimonials' => NULL,
       ),
     ),
   );
@@ -60,7 +57,7 @@ function pmh_hero_theme() {
 
 
 // Custom function to return all the hero banner nodes.
-function pmh_hero_nodes(){
+function pmh_testimonials_nodes(){
 
   // Empty array to return later.
   $out = array();
@@ -68,7 +65,7 @@ function pmh_hero_nodes(){
 
   $query = new EntityFieldQuery();
   $query->entityCondition('entity_type', 'node') // Query nodes.
-    ->entityCondition('bundle', 'hero_banner') // Hero banner content type.
+    ->entityCondition('bundle', 'testimonials') // Hero banner content type.
     ->addMetaData('account', user_load(1)); // Run the query as user 1.
   $result = $query->execute(); // Execute that funky function.
 
@@ -81,7 +78,8 @@ function pmh_hero_nodes(){
   // If there are nodes.
   if (!empty($items)) {
     foreach ($items as $k => $v) {
-      $out[$k]['image'] = $v->field_hero_image['und'][0]['uri'];
+      $out[$k]['body'] = $v->body['und'][0]['value'];
+      $out[$k]['field_full_name'] = $v->field_full_name['und'][0]['value'];
     }
   }
   return $out;

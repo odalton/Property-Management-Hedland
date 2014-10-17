@@ -1,0 +1,54 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function pmh_memberships_block_info() {
+  // Hero banner carousel block.
+  $blocks['pmh_memberships'] = array(
+    'info' => t('PMH Memberships Block'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ */
+function pmh_memberships_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    // Hero banner carousel block.
+    case 'pmh_memberships':
+      // Path the module.
+      $block['subject'] = '';
+      $block['content'] = array(
+        '#theme' => 'pmh_memberships',
+        '#imagepath' => drupal_get_path('module', 'pmh_memberships') . '/logos',
+
+      );
+      break;
+
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_custom_theme().
+ */
+function pmh_memberships_theme() {
+
+  return array(
+    // Hero banner block theme.
+    'pmh_memberships' => array(
+      'template' => 'templates/pmh-memberships',
+      'variables' => array(
+        'imagepath' => null,
+      ),
+    ),
+  );
+}
