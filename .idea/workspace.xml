@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="" />
+    <list default="true" id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_responsive.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_responsive.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/pma-community.png" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/pma-community.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/reiwa.png" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/reiwa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/strata-community.png" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_memberships/logos/strata-community.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pmh.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +39,43 @@
       <file leaf-file-name="_pmh_main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="31.163265" vertical-offset="3027" max-vertical-offset="5190">
+            <state line="316" column="5" selection-start="5743" selection-end="5743" vertical-scroll-proportion="-7.2972975" vertical-offset="4200" max-vertical-offset="5355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pmh_testimonials.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="16" selection-start="820" selection-end="820" vertical-scroll-proportion="-5.714286" vertical-offset="320" max-vertical-offset="1380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_misc.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_misc.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="8.877551" vertical-offset="660" max-vertical-offset="12195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_init.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="42.734695" vertical-offset="2094" max-vertical-offset="2490">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_normalize.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="110.20408" vertical-offset="5400" max-vertical-offset="8265">
               <folding />
             </state>
           </provider>
@@ -35,25 +84,45 @@
       <file leaf-file-name="_pmh_responsive.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="20" selection-start="4112" selection-end="4112" vertical-scroll-proportion="-7.3061223" vertical-offset="3197" max-vertical-offset="5130">
+            <state line="195" column="31" selection-start="3279" selection-end="3279" vertical-scroll-proportion="18.979591" vertical-offset="3855" max-vertical-offset="5505">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/templates/html.tpl.php">
+      <file leaf-file-name="_mixins.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="915">
+            <state line="41" column="14" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.6015625" vertical-offset="230" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pmh_footer.tpl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pmh_footer.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.41424417" vertical-offset="0" max-vertical-offset="688">
+            <state line="21" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="450">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_fixed.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_fixed.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="-3.1836734" vertical-offset="684" max-vertical-offset="1980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_responsive.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-3.9183674" vertical-offset="348" max-vertical-offset="3240">
               <folding />
             </state>
           </provider>
@@ -78,21 +147,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_memberships/pmh_memberships.module" />
-        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_memberships/templates/pmh-memberships.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.info" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh-testimonials.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_hero/pmh_hero.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_hero/templates/pmh_hero.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module" />
-        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/js/pmh_testimonials.js" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_form/pmh_form.module" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module" />
+        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" />
+        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
       </list>
     </option>
   </component>
@@ -319,6 +388,62 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh_testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh_testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -435,6 +560,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="" />
@@ -450,6 +592,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040173" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
@@ -461,7 +604,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -481,46 +623,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_hero/pmh_hero.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.81447965" vertical-offset="0" max-vertical-offset="1395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="65" selection-start="89" selection-end="89" vertical-scroll-proportion="0.021067416" vertical-offset="0" max-vertical-offset="712" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="1" selection-start="1991" selection-end="1991" vertical-scroll-proportion="1.3031026" vertical-offset="729" max-vertical-offset="1365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="55" selection-start="193" selection-end="193" vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_hero/templates/pmh_hero.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="221" selection-end="249" vertical-scroll-proportion="0.16891892" vertical-offset="0" max-vertical-offset="444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/pmh.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="33" selection-start="3686" selection-end="3686" vertical-scroll-proportion="2.852564" vertical-offset="0" max-vertical-offset="2280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_header/pmh_header.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_header/templates/pmh_header.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_header/templates/pmh_phone.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689" />
@@ -548,23 +650,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss">
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="20" selection-start="4112" selection-end="4112" vertical-scroll-proportion="-7.3061223" vertical-offset="3197" max-vertical-offset="5130">
+        <state line="21" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="450">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_fixed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="-3.1836734" vertical-offset="684" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_misc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="8.877551" vertical-offset="660" max-vertical-offset="12195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="42.734695" vertical-offset="2094" max-vertical-offset="2490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="110.20408" vertical-offset="5400" max-vertical-offset="8265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-3.9183674" vertical-offset="348" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="111" selection-start="340" selection-end="340" vertical-scroll-proportion="0.1380368" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="16" selection-start="820" selection-end="820" vertical-scroll-proportion="-5.714286" vertical-offset="320" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="31.163265" vertical-offset="3027" max-vertical-offset="5190">
+        <state line="316" column="5" selection-start="5743" selection-end="5743" vertical-scroll-proportion="-7.2972975" vertical-offset="4200" max-vertical-offset="5355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.41424417" vertical-offset="0" max-vertical-offset="688">
+        <state line="195" column="31" selection-start="3279" selection-end="3279" vertical-scroll-proportion="18.979591" vertical-offset="3855" max-vertical-offset="5505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.6015625" vertical-offset="230" max-vertical-offset="870">
           <folding />
         </state>
       </provider>

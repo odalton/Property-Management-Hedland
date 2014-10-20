@@ -1,321 +1,322 @@
-	// Body Styles.
-	body {
-	  font-family: $latoregular;
-	  margin:0px;
-	  #page {
-	    max-width: 100%;
-	    margin-bottom: -150px;
-	  }
-	}
+blockquote {
+  background: #f9f9f9;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
 
-	// Header Styles.
+// Body Styles.
+body {
+  font-family: $latoregular;
+  margin: 0px;
+  #page {
+    max-width: 100%;
+    margin-bottom: -150px;
+  }
+}
 
-	.header {
-	  width: 100%;
-	  background-color: #8d1870;
-	  &:after {
-	    position: relative;
-	    border-bottom: solid 20px #231f20;
-	    width:100%;
-	  }
-	}
+// Header Styles.
 
-	.header-inner {
-	  @include outer-container;
-	  padding:0px !important;
-	  height: 148px;
+.header {
+  width: 100%;
+  background-color: #8d1870;
+  &:after {
+    position: relative;
+    width: 100%;
+  }
+}
 
-	  #site-name {
-	    position: absolute;
-	    left: -9999px;
-	  }
+.header-inner {
+  @include outer-container;
+  padding: 0px !important;
+  height: 148px;
 
-	  #logo {
-	    position: relative;
-	    top: 25px;
-	  }
+  #site-name {
+    position: absolute;
+    left: -9999px;
+  }
 
-	  .header-msg {
-	    font-family: $bebasneueregular;
-	    .header-msg-one {
-	      position: relative;
-	      top: 25px;
-	      font-size: 30px;
-	      color: transparent;
-	      text-transform: uppercase;
-	      text-align: center;
-	    }
+  #logo {
+    position: relative;
+    top: 25px;
+  }
 
-	    .header-msg-two {
-	      font-size: 30px;
-	      color: transparent;
-	      text-transform: uppercase;
-	      font-weight: bold;
-	    }
-	  }
-
-	  .header-phone {
-	    position: relative;
-	    #block-pmh-header-pmh-phone {
-	      display: inline-block;
-	      color:#ffffff;
-	      font-size: 33px;
-	      font-weight: bold;
-	      &:before {
-		display: inline-block;
-		font-family: FontAwesome;
-		content: "\f095";
-	      }
-	      a {
-		color: #fff;
-	      }
-	    }
-	  }
-	}
-
-	#hero-banner {
-	  max-height: 430px;
-	}
-
-	// Hero Banner Styles.
-	#hero-banner-carousel .slide img{
-	  display: block;
-	  width: 100%;
-	  max-height: 430px;
-	}
-
-	#main {
-	  @include outer-container;
-	  position: relative;
-	  top:-205px;
-	  border-bottom: solid 1px #cccccc;
-	  padding-bottom: 115px;
-	  padding-top:0px;
-
-	  .messages--error {
-	    display: none;
-	  }
-
-
-	  #block-webform-client-block-3 {
-
-	    h2 {
-	      font-family: BebasNeue;
-	      text-align: center;
-	//      font-size: 66px;
-	      color: #ffffff;
-	      background-color: rgba(141,24,112, 0.9);
-	      text-transform: uppercase;
-	      text-align: center;
-	      padding:0px 35px;
-	      padding-top: 10px;
-	      border-top-right-radius: 8px;
-	      border-top-left-radius: 8px;
-	    }
-
-	    h3 {
-	      box-sizing: inherit;
-	      text-align: center;
-	      padding:10px 35px;
-	      color: #fff;
-	      background-color: $contact-form-blue;
-
-	      span {
-		text-transform: uppercase;
-		box-sizing: content-box;
-		&.pmh-form-line1 {
-		  display: block;
-	//          font-size: 55px;
-		  line-height: 1em;
-		}
-		&.pmh-form-line2 {
-		  display: block;
-	//          font-size: 130px;
-		  line-height: 1em;
-		}
-		&.pmh-form-line3 {
-		  display: block;
-	//          font-size: 27px;
-		  line-height: 1em;
-		}
-		&.pmh-form-line4 {
-		  display: block;
-	//          font-size: 45px;
-		  line-height: 1em;
-		}
-	      }
-
-	    }
-
-	    form {
-	      background-color: rgba(141,24,112, 0.9);
-	      border-bottom-right-radius: 8px;
-	      border-bottom-left-radius: 8px;
-	      padding-top: 10px;
-	    }
-
-	    .form-item {
-	      margin:0px;
-	      padding:0px 35px;
-	      box-sizing: border-box;
-
-	      input {
-		color: #000;
-		&.error {
-		  background-color: rgba(204,0,0, 0.3);
-		  color: #fff;
-		}
-	      }
-
-	      select {
-		color: #000;
-		border: solid 0px;
-		height: 36px;
-		width: 100%;
-		margin-bottom:10px;
-		&.error {
-		  background-color: rgba(204,0,0, 0.3);
-		  color: #fff;
-		}
-	      }
-	    }
-
-	    .webform-component-textarea {
-	      margin-bottom: 10px;
-	    }
-
-	    .webform-component-textfield,
-	    .webform-component-email {
-	      label {
-		display: none;
-	      }
-	    }
-
-	    .webform-component-select,
-	    .webform-component-textarea {
-	      label {
-		color: #fff;
-		display: block;
-		margin-bottom:0px;
-	      }
-	    }
-
-	    .form-actions {
-	      padding:0px 35px 20px 35px;
-	      input[type="submit"] {
-		background-color: $contact-form-blue;
-		width: 100%;
-		height: 70px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		font-size: 40px;
-	      }
-	    }
-
-	    #testimonials-carousel {
-	      background-color: #e9eaeb;
-	      padding: 0px 25px;
-	      margin-top: 40px;
-	      border-radius: 8px;
-	      padding:10px 30px;
-	      .testimonial-body {
-		font-style: italic;
-		margin-bottom:14px;
-	      }
-	      .testimonial-title {
-		font-weight: bold;
-		color: rgba(141,24,112, 0.9);
-	      }
-	    }
-
-	  }
-
-	  .node {
-	    position: relative;
-	    top:200px;
-
-	    h2 {
-	      display: block;
-	      color: #8d1870;
-	      font-size: 28px;
-	      margin-bottom:15px;
-	    }
-
-	    .field-name-body {
-	      font-size: 20px;
-	    }
-
-	  }
-	}
-
-
-	#block-pmh-gmap-pmh-gmap {
-	  @include outer-container;
-
-	  h2 {
-	    padding-left:10px;
-	    padding-bottom: 25px;
-	    color: #8d1870;
-	    font-size: 30px;
-	  }
-
-
-	  .map-content {
-	    #map-canvas-1,
-	    #map-canvas-2 {
-	      height: 300px;
-	      float: none !important;
-	    }
-
-	    #map-canvas-1 {
-	      border-bottom:15px solid #8d1870;
-	    }
-
-	    #map-canvas-2 {
-	      border-bottom:15px solid #8d1870;
-	    }
-	  }
-	}
-
-	.memberships-wrapper {
-	  @include outer-container;
-	  span {
-	    text-align: center;
-	  }
-	}
-
-
-	.macro-footer {
-	  //    @include outer-container;
-	  width:100%;
-	  height: 91px;
-	  background-color: #8D0069;
-	  color:#ffffff;
-	  .macro-copyright {
-	    @include outer-container;
-	    padding-top:30px;
-	    .icons {
-	      float: left;
-	      display: inline-block;
-	      color: #fff;
-	      .icon {
-		display: inline-block;
-		a {
-		  color: #ffffff;
-		  font-size: 20px;
-		  padding: 0px 10px;
-		  display: inline-block;
-		}
-      }
+  .header-msg {
+    font-family: $bebasneueregular;
+    .header-msg-one {
+      position: relative;
+      top: 25px;
+      font-size: 30px;
+      color: transparent;
+      text-transform: uppercase;
+      text-align: center;
     }
 
-    .macro-copy {
+    .header-msg-two {
+      font-size: 30px;
+      color: transparent;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .header-phone {
+    position: relative;
+    #block-pmh-header-pmh-phone {
       display: inline-block;
-      float: right;
+      color: #ffffff;
+      font-size: 33px;
+      font-weight: bold;
+      &:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        content: "\f095";
+      }
+      a {
+        color: #fff;
+      }
     }
   }
 }
 
+#hero-banner {
+  @include outer-container;
+  max-height: 430px;
+}
+
+// Hero Banner Styles.
+#hero-banner-carousel .slide img {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+}
+
+#main {
+  @include outer-container;
+  position: relative;
+  top: -205px;
+  border-bottom: solid 1px #cccccc;
+  padding-bottom: 115px;
+  padding-top: 0px;
+
+  .messages--error {
+    display: none;
+  }
+
+  #block-webform-client-block-3 {
+
+    h2 {
+      font-family: BebasNeue;
+      text-align: center;
+      //      font-size: 66px;
+      color: #ffffff;
+      background-color: rgba(141, 24, 112, 0.9);
+      text-transform: uppercase;
+      text-align: center;
+      padding: 0px 35px;
+      padding-top: 10px;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+
+    h3 {
+      box-sizing: inherit;
+      text-align: center;
+      padding: 10px 35px;
+      color: #fff;
+      background-color: $contact-form-blue;
+
+      span {
+        text-transform: uppercase;
+        box-sizing: content-box;
+        &.pmh-form-line1 {
+          display: block;
+          //          font-size: 55px;
+          line-height: 1em;
+        }
+        &.pmh-form-line2 {
+          display: block;
+          //          font-size: 130px;
+          line-height: 1em;
+        }
+        &.pmh-form-line3 {
+          display: block;
+          //          font-size: 27px;
+          line-height: 1em;
+        }
+        &.pmh-form-line4 {
+          display: block;
+          //          font-size: 45px;
+          line-height: 1em;
+        }
+      }
+
+    }
+
+    form {
+      background-color: rgba(141, 24, 112, 0.9);
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      padding-top: 10px;
+    }
+
+    .form-item {
+      margin: 0px;
+      padding: 0px 35px;
+      box-sizing: border-box;
+
+      input {
+        color: #000;
+        &.error {
+          background-color: rgba(204, 0, 0, 0.3);
+          color: #fff;
+        }
+      }
+
+      select {
+        color: #000;
+        border: solid 0px;
+        height: 36px;
+        width: 100%;
+        margin-bottom: 10px;
+        &.error {
+          background-color: rgba(204, 0, 0, 0.3);
+          color: #fff;
+        }
+      }
+    }
+
+    .webform-component-textarea {
+      margin-bottom: 10px;
+    }
+
+    .webform-component-textfield,
+    .webform-component-email {
+      label {
+        display: none;
+      }
+    }
+
+    .webform-component-select,
+    .webform-component-textarea {
+      label {
+        color: #fff;
+        display: block;
+        margin-bottom: 0px;
+      }
+    }
+
+    .form-actions {
+      padding: 0px 35px 20px 35px;
+      input[type="submit"] {
+        background-color: $contact-form-blue;
+        width: 100%;
+        height: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+      }
+    }
+
+    #testimonials-carousel {
+      background-color: #e9eaeb;
+      padding: 0px 25px;
+      margin-top: 40px;
+      border-radius: 8px;
+      padding: 10px 30px;
+      .testimonial-body {
+        font-style: italic;
+        margin-bottom: 14px;
+      }
+      .testimonial-title {
+        font-weight: bold;
+        color: rgba(141, 24, 112, 0.9);
+        text-align: right;
+        padding-right:10px;
+      }
+    }
+
+  }
+
+  .node {
+    position: relative;
+    top: 220px;
+
+    h2 {
+      display: block;
+      color: #8d1870;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .field-name-body {
+      font-size: 20px;
+    }
+
+  }
+}
+
+#block-pmh-gmap-pmh-gmap {
+  @include outer-container;
+
+  h2 {
+    padding-left: 10px;
+    padding-bottom: 25px;
+    color: #8d1870;
+    font-size: 30px;
+  }
+
+  .map-content {
+    #map-canvas-1,
+    #map-canvas-2 {
+      height: 300px;
+      float: none !important;
+    }
+
+    #map-canvas-1 {
+      border-bottom: 15px solid #8d1870;
+    }
+
+    #map-canvas-2 {
+      border-bottom: 15px solid #8d1870;
+    }
+  }
+}
+
+.memberships-wrapper {
+  @include outer-container;
+  span {
+    text-align: center;
+  }
+}
+
+.macro-footer {
+  width: 100%;
+  height: 91px;
+  background-color: #8D0069;
+  color: #ffffff;
+  .macro-copyright {
+    @include outer-container;
+    .icons {
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      .icon {
+        display: inline-block;
+        a {
+          color: #ffffff;
+          padding: 0px 10px;
+          display: inline-block;
+          &:hover {
+            color: #cccccc;
+          }
+        }
+      }
+    }
+    .macro-copy {
+
+    }
+  }
+}
 
 body.not-front {
   #main {
@@ -327,7 +328,7 @@ body.not-front {
 body.section-thank-you {
   #page-title {
     position: absolute;
-    left:-9999px;
+    left: -9999px;
   }
 
   #main {
@@ -339,8 +340,13 @@ body.section-thank-you {
     }
 
     .node {
-      top:10px;
-      margin-bottom:10px;
+      top: 10px;
+      margin-bottom: 10px;
     }
   }
+}
+
+
+.map-address {
+  margin-top: 20px;
 }

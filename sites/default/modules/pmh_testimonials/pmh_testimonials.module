@@ -80,6 +80,7 @@ function pmh_testimonials_nodes(){
     foreach ($items as $k => $v) {
       $out[$k]['body'] = $v->body['und'][0]['value'];
       $out[$k]['field_full_name'] = $v->field_full_name['und'][0]['value'];
+      $out[$k]['field_read_more_link'] = $v->field_read_more_link['und'][0]['value'];
     }
   }
   return $out;
