@@ -1,0 +1,4 @@
+name = PMH Testimonials
+description = Provides Testimonial slider to the page in a block.
+core = 7.x
+package = "PMH Custom Modules."
