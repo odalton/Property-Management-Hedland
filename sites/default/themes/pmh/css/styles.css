@@ -1825,7 +1825,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 220px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2009,7 +2009,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 320px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2044,23 +2044,23 @@ body.section-thank-you #main .node {
 
   /* line 124, ../sass/components/_pmh_responsive.scss */
   #block-webform-client-block-3 h2 {
-    font-size: 70px;
+    font-size: 43px;
   }
   /* line 127, ../sass/components/_pmh_responsive.scss */
   #block-webform-client-block-3 .pmh-form-line1 {
-    font-size: 60px;
+    font-size: 38px;
   }
   /* line 130, ../sass/components/_pmh_responsive.scss */
   #block-webform-client-block-3 .pmh-form-line2 {
-    font-size: 140px;
+    font-size: 90px;
   }
   /* line 133, ../sass/components/_pmh_responsive.scss */
   #block-webform-client-block-3 .pmh-form-line3 {
-    font-size: 28px;
+    font-size: 18px;
   }
   /* line 136, ../sass/components/_pmh_responsive.scss */
   #block-webform-client-block-3 .pmh-form-line4 {
-    font-size: 47px;
+    font-size: 30px;
   }
 
   /* line 142, ../sass/components/_pmh_responsive.scss */
@@ -2080,7 +2080,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 480px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2130,7 +2130,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 595px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2198,7 +2198,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 768px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2338,7 +2338,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 980px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
@@ -2391,7 +2391,7 @@ body.section-thank-you #main .node {
 @media screen and (min-width: 1024px) {
   /* line 41, ../sass/_mixins.scss */
   .responsive-bar {
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     width: 100%;
     left: 0px;
