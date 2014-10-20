@@ -1445,13 +1445,6 @@ tr.selected td {
   background-image: url('../images/progress.gif?1398863088');
 }
 
-/* line 1, ../sass/components/_pmh_main.scss */
-blockquote {
-  background: #f9f9f9;
-  padding: 0.5em 10px;
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
 /* line 8, ../sass/components/_pmh_main.scss */
 body {
   font-family: latoregular;
@@ -1562,15 +1555,14 @@ body #page {
   margin-right: auto;
   position: relative;
   top: -205px;
-  border-bottom: solid 1px #cccccc;
   padding-bottom: 115px;
   padding-top: 0px;
 }
-/* line 101, ../sass/components/_pmh_main.scss */
+/* line 100, ../sass/components/_pmh_main.scss */
 #main .messages--error {
   display: none;
 }
-/* line 107, ../sass/components/_pmh_main.scss */
+/* line 106, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h2 {
   font-family: BebasNeue;
   text-align: center;
@@ -1583,7 +1575,7 @@ body #page {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
-/* line 121, ../sass/components/_pmh_main.scss */
+/* line 120, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 {
   box-sizing: inherit;
   text-align: center;
@@ -1591,54 +1583,54 @@ body #page {
   color: #fff;
   background-color: #6699d1;
 }
-/* line 128, ../sass/components/_pmh_main.scss */
+/* line 127, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 span {
   text-transform: uppercase;
   box-sizing: content-box;
 }
-/* line 131, ../sass/components/_pmh_main.scss */
+/* line 130, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 span.pmh-form-line1 {
   display: block;
   line-height: 1em;
 }
-/* line 136, ../sass/components/_pmh_main.scss */
+/* line 135, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 span.pmh-form-line2 {
   display: block;
   line-height: 1em;
 }
-/* line 141, ../sass/components/_pmh_main.scss */
+/* line 140, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 span.pmh-form-line3 {
   display: block;
   line-height: 1em;
 }
-/* line 146, ../sass/components/_pmh_main.scss */
+/* line 145, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 h3 span.pmh-form-line4 {
   display: block;
   line-height: 1em;
 }
-/* line 155, ../sass/components/_pmh_main.scss */
+/* line 154, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 form {
   background-color: rgba(141, 24, 112, 0.9);
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   padding-top: 10px;
 }
-/* line 162, ../sass/components/_pmh_main.scss */
+/* line 161, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-item {
   margin: 0px;
   padding: 0px 35px;
   box-sizing: border-box;
 }
-/* line 167, ../sass/components/_pmh_main.scss */
+/* line 166, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-item input {
   color: #000;
 }
-/* line 169, ../sass/components/_pmh_main.scss */
+/* line 168, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-item input.error {
   background-color: rgba(204, 0, 0, 0.3);
   color: #fff;
 }
-/* line 175, ../sass/components/_pmh_main.scss */
+/* line 174, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-item select {
   color: #000;
   border: solid 0px;
@@ -1646,32 +1638,32 @@ body #page {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 181, ../sass/components/_pmh_main.scss */
+/* line 180, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-item select.error {
   background-color: rgba(204, 0, 0, 0.3);
   color: #fff;
 }
-/* line 188, ../sass/components/_pmh_main.scss */
+/* line 187, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .webform-component-textarea {
   margin-bottom: 10px;
 }
-/* line 194, ../sass/components/_pmh_main.scss */
+/* line 193, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .webform-component-textfield label,
 #main #block-webform-client-block-3 .webform-component-email label {
   display: none;
 }
-/* line 201, ../sass/components/_pmh_main.scss */
+/* line 200, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .webform-component-select label,
 #main #block-webform-client-block-3 .webform-component-textarea label {
   color: #fff;
   display: block;
   margin-bottom: 0px;
 }
-/* line 208, ../sass/components/_pmh_main.scss */
+/* line 207, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-actions {
   padding: 0px 35px 20px 35px;
 }
-/* line 210, ../sass/components/_pmh_main.scss */
+/* line 209, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .form-actions input[type="submit"] {
   background-color: #6699d1;
   width: 100%;
@@ -1680,11 +1672,12 @@ body #page {
   padding-bottom: 10px;
   font-size: 40px;
 }
-/* line 220, ../sass/components/_pmh_main.scss */
+/* line 219, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 #testimonials-carousel {
   background-color: #e9eaeb;
   padding: 0px 25px;
   margin-top: 40px;
+  margin-bottom: 10px;
   border-radius: 8px;
   padding: 10px 30px;
 }
@@ -1700,24 +1693,35 @@ body #page {
   text-align: right;
   padding-right: 10px;
 }
-/* line 240, ../sass/components/_pmh_main.scss */
+/* line 238, ../sass/components/_pmh_main.scss */
+#main #block-webform-client-block-3 .pmh-more-testimonials {
+  display: block;
+  text-align: center;
+}
+/* line 241, ../sass/components/_pmh_main.scss */
+#main #block-webform-client-block-3 .pmh-more-testimonials a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(141, 24, 112, 0.9);
+}
+/* line 250, ../sass/components/_pmh_main.scss */
 #main .node {
   position: relative;
   top: 220px;
 }
-/* line 244, ../sass/components/_pmh_main.scss */
+/* line 254, ../sass/components/_pmh_main.scss */
 #main .node h2 {
   display: block;
   color: #8d1870;
   font-size: 28px;
   margin-bottom: 15px;
 }
-/* line 251, ../sass/components/_pmh_main.scss */
+/* line 261, ../sass/components/_pmh_main.scss */
 #main .node .field-name-body {
   font-size: 20px;
 }
 
-/* line 258, ../sass/components/_pmh_main.scss */
+/* line 268, ../sass/components/_pmh_main.scss */
 #block-pmh-gmap-pmh-gmap {
   overflow: hidden;
   *zoom: 1;
@@ -1725,50 +1729,34 @@ body #page {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 261, ../sass/components/_pmh_main.scss */
+/* line 271, ../sass/components/_pmh_main.scss */
 #block-pmh-gmap-pmh-gmap h2 {
   padding-left: 10px;
   padding-bottom: 25px;
   color: #8d1870;
   font-size: 30px;
 }
-/* line 269, ../sass/components/_pmh_main.scss */
+/* line 279, ../sass/components/_pmh_main.scss */
 #block-pmh-gmap-pmh-gmap .map-content #map-canvas-1,
 #block-pmh-gmap-pmh-gmap .map-content #map-canvas-2 {
   height: 300px;
   float: none !important;
 }
-/* line 275, ../sass/components/_pmh_main.scss */
+/* line 285, ../sass/components/_pmh_main.scss */
 #block-pmh-gmap-pmh-gmap .map-content #map-canvas-1 {
   border-bottom: 15px solid #8d1870;
 }
-/* line 279, ../sass/components/_pmh_main.scss */
+/* line 289, ../sass/components/_pmh_main.scss */
 #block-pmh-gmap-pmh-gmap .map-content #map-canvas-2 {
   border-bottom: 15px solid #8d1870;
 }
 
-/* line 285, ../sass/components/_pmh_main.scss */
-.memberships-wrapper {
-  overflow: hidden;
-  *zoom: 1;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 287, ../sass/components/_pmh_main.scss */
-.memberships-wrapper span {
-  text-align: center;
-}
-
-/* line 292, ../sass/components/_pmh_main.scss */
-.macro-footer {
-  width: 100%;
-  height: 91px;
-  background-color: #8D0069;
-  color: #ffffff;
+/* line 295, ../sass/components/_pmh_main.scss */
+.block-pmh-memberships {
+  margin: 50px 0px;
 }
 /* line 297, ../sass/components/_pmh_main.scss */
-.macro-footer .macro-copyright {
+.block-pmh-memberships .memberships-wrapper {
   overflow: hidden;
   *zoom: 1;
   max-width: 68em;
@@ -1776,48 +1764,68 @@ body #page {
   margin-right: auto;
 }
 /* line 299, ../sass/components/_pmh_main.scss */
+.block-pmh-memberships .memberships-wrapper span {
+  text-align: center;
+}
+
+/* line 306, ../sass/components/_pmh_main.scss */
+.macro-footer {
+  width: 100%;
+  height: 91px;
+  background-color: #8D0069;
+  color: #ffffff;
+}
+/* line 311, ../sass/components/_pmh_main.scss */
+.macro-footer .macro-copyright {
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 313, ../sass/components/_pmh_main.scss */
 .macro-footer .macro-copyright .icons {
   position: relative;
   display: inline-block;
   color: #fff;
 }
-/* line 303, ../sass/components/_pmh_main.scss */
+/* line 317, ../sass/components/_pmh_main.scss */
 .macro-footer .macro-copyright .icons .icon {
   display: inline-block;
 }
-/* line 305, ../sass/components/_pmh_main.scss */
+/* line 319, ../sass/components/_pmh_main.scss */
 .macro-footer .macro-copyright .icons .icon a {
   color: #ffffff;
   padding: 0px 10px;
   display: inline-block;
 }
-/* line 309, ../sass/components/_pmh_main.scss */
+/* line 323, ../sass/components/_pmh_main.scss */
 .macro-footer .macro-copyright .icons .icon a:hover {
   color: #cccccc;
 }
 
-/* line 322, ../sass/components/_pmh_main.scss */
+/* line 336, ../sass/components/_pmh_main.scss */
 body.not-front #main {
   background-color: #fff;
   border-radius: 8px;
 }
 
-/* line 329, ../sass/components/_pmh_main.scss */
+/* line 343, ../sass/components/_pmh_main.scss */
 body.section-thank-you #page-title {
   position: absolute;
   left: -9999px;
 }
-/* line 337, ../sass/components/_pmh_main.scss */
+/* line 351, ../sass/components/_pmh_main.scss */
 body.section-thank-you #main #content .messages, body.section-thank-you #main #content .messages--status, body.section-thank-you #main #content .messages--warning, body.section-thank-you #main #content .messages--error {
   display: none;
 }
-/* line 342, ../sass/components/_pmh_main.scss */
+/* line 356, ../sass/components/_pmh_main.scss */
 body.section-thank-you #main .node {
   top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 350, ../sass/components/_pmh_main.scss */
+/* line 364, ../sass/components/_pmh_main.scss */
 .map-address {
   margin-top: 20px;
 }

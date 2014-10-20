@@ -1,7 +1,7 @@
 blockquote {
-  background: #f9f9f9;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+//  background: #f9f9f9;
+//  padding: 0.5em 10px;
+//  quotes: "\201C""\201D""\2018""\2019";
 }
 
 // Body Styles.
@@ -94,7 +94,6 @@ body {
   @include outer-container;
   position: relative;
   top: -205px;
-  border-bottom: solid 1px #cccccc;
   padding-bottom: 115px;
   padding-top: 0px;
 
@@ -221,6 +220,7 @@ body {
       background-color: #e9eaeb;
       padding: 0px 25px;
       margin-top: 40px;
+      margin-bottom: 10px;
       border-radius: 8px;
       padding: 10px 30px;
       .testimonial-body {
@@ -232,6 +232,16 @@ body {
         color: rgba(141, 24, 112, 0.9);
         text-align: right;
         padding-right:10px;
+      }
+    }
+
+    .pmh-more-testimonials {
+      display: block;
+      text-align: center;
+      a {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(141, 24, 112, 0.9);
       }
     }
 
@@ -282,12 +292,16 @@ body {
   }
 }
 
-.memberships-wrapper {
-  @include outer-container;
-  span {
-    text-align: center;
+.block-pmh-memberships {
+  margin:50px 0px;
+  .memberships-wrapper {
+    @include outer-container;
+    span {
+      text-align: center;
+    }
   }
 }
+
 
 .macro-footer {
   width: 100%;

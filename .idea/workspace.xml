@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa89769-d1a6-464d-a1e1-89d6b5792974" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_mixins.scssc" afterPath="$PROJECT_DIR$/.sass-cache/50e0fffcf57298371caf7fc0bf45bf7882f571df/_mixins.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b219515e81f590ea50728f0c82f1d9fe5919045c/_pmh_main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" afterPath="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" afterPath="$PROJECT_DIR$/sites/default/themes/pmh/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pmh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_pmh_main.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_pmh_main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="316" column="5" selection-start="5743" selection-end="5743" vertical-scroll-proportion="-7.2972975" vertical-offset="4200" max-vertical-offset="5355">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pmh_testimonials.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="820" selection-end="820" vertical-scroll-proportion="-5.714286" vertical-offset="320" max-vertical-offset="1380">
+            <state line="238" column="21" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.66288495" vertical-offset="3161" max-vertical-offset="5565">
               <folding />
             </state>
           </provider>
@@ -48,7 +41,7 @@
       <file leaf-file-name="_misc.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_misc.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="8.877551" vertical-offset="660" max-vertical-offset="12195">
+            <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="12195">
               <folding />
             </state>
           </provider>
@@ -57,7 +50,7 @@
       <file leaf-file-name="_init.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="42.734695" vertical-offset="2094" max-vertical-offset="2490">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2094" max-vertical-offset="2490">
               <folding />
             </state>
           </provider>
@@ -66,7 +59,7 @@
       <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="110.20408" vertical-offset="5400" max-vertical-offset="8265">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5400" max-vertical-offset="8265">
               <folding />
             </state>
           </provider>
@@ -75,28 +68,17 @@
       <file leaf-file-name="_pmh_responsive.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="19" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-7.9591837" vertical-offset="1650" max-vertical-offset="5505">
+            <state line="136" column="19" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="5505">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_mixins.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.6484375" vertical-offset="200" max-vertical-offset="870">
+            <state line="41" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-8.877551" vertical-offset="180" max-vertical-offset="870">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pmh_footer.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +86,7 @@
       <file leaf-file-name="_fixed.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_fixed.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="-3.1836734" vertical-offset="684" max-vertical-offset="1980">
+            <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
@@ -113,7 +95,7 @@
       <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-3.9183674" vertical-offset="348" max-vertical-offset="3240">
+            <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3240">
               <folding />
             </state>
           </provider>
@@ -149,10 +131,10 @@
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module" />
-        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss" />
         <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss" />
       </list>
     </option>
   </component>
@@ -517,8 +499,8 @@
     <property name="options.lastSelected" value="Configurable.PHP.Debug" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -583,10 +565,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040173" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26398852" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25681493" sideWeight="0.38918918" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -636,86 +618,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/templates/html.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="915">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_footer/templates/pmh_footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="21" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_fixed.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="-3.1836734" vertical-offset="684" max-vertical-offset="1980">
+        <state line="56" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1980">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_misc.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="8.877551" vertical-offset="660" max-vertical-offset="12195">
+        <state line="15" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="12195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_init.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="42.734695" vertical-offset="2094" max-vertical-offset="2490">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2094" max-vertical-offset="2490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="110.20408" vertical-offset="5400" max-vertical-offset="8265">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5400" max-vertical-offset="8265">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/layouts/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-3.9183674" vertical-offset="348" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="111" selection-start="340" selection-end="340" vertical-scroll-proportion="0.1380368" vertical-offset="0" max-vertical-offset="652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="820" selection-end="820" vertical-scroll-proportion="-5.714286" vertical-offset="320" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="316" column="5" selection-start="5743" selection-end="5743" vertical-scroll-proportion="-7.2972975" vertical-offset="4200" max-vertical-offset="5355">
+        <state line="36" column="13" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="3240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="19" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-7.9591837" vertical-offset="1650" max-vertical-offset="5505">
+        <state line="136" column="19" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="5505">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.6484375" vertical-offset="200" max-vertical-offset="870">
+        <state line="41" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-8.877551" vertical-offset="180" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/templates/pmh_testimonials.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.2195122" vertical-offset="0" max-vertical-offset="410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/pmh_testimonials/pmh_testimonials.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="85" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.6453901" vertical-offset="957" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/pmh/sass/components/_pmh_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="21" selection-start="4573" selection-end="4573" vertical-scroll-proportion="0.66288495" vertical-offset="3161" max-vertical-offset="5565">
           <folding />
         </state>
       </provider>
