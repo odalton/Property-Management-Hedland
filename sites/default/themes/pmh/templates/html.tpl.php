@@ -25,6 +25,8 @@
   <meta http-equiv="cleartype" content="on">
 
   <?php print $styles; ?>
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <?php print $scripts; ?>
   <?php if ($add_html5_shim and !$add_respond_js): ?>
     <!--[if lt IE 9]>

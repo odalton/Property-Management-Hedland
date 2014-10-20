@@ -55,7 +55,6 @@ function pmh_hero_theme() {
         'slides' => null,
       ),
     ),
-
   );
 }
 
