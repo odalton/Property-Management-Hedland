@@ -1695,7 +1695,7 @@ body #page {
 }
 /* line 238, ../sass/components/_pmh_main.scss */
 #main #block-webform-client-block-3 .pmh-more-testimonials {
-  display: block;
+  display: none;
   text-align: center;
 }
 /* line 241, ../sass/components/_pmh_main.scss */
